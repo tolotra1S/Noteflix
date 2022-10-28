@@ -1,0 +1,27 @@
+.scrollable-div {
+    background-color: transparent;
+    height: 604px;
+    overflow: auto;
+    margin: 0px;
+    text-align: justify;
+    padding: 20px;
+}
+.scrollable-div ul li{
+    text-decoration: none;
+    margin-left: 100px;
+}
+li .link{
+   
+    text-decoration: none;
+}
+.scrollable-div ul li{
+    border:1px solid rgb(7, 7, 7);
+    text-align: center;
+
+}
+.scrollable-div ul li:hover{
+    background-color: beige;
+    transform: scale(1.02);
+    cursor:pointer;
+    
+}

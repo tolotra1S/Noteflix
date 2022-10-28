@@ -1,0 +1,33 @@
+.scrollable-div {
+    background-color: transparent;
+    height: 10000px;
+    overflow: auto;
+    margin: 0px;
+    text-align: justify;
+    padding: 20px;
+    
+}
+.th3{
+    background-color: blue;
+}
+.releve{
+    width: 800px;
+}
+.DDE{
+    margin-left: 700px;
+}
+.DATE{
+    margin-left: 680px;
+}
+.butnpdf{
+    float: right;
+}
+.moyens{
+    float: right;
+    margin-left: 15px;
+    
+    border: 1px solid red;
+}
+.center1{
+    margin: 2px;
+}

@@ -1,0 +1,137 @@
+.scrollable-div {
+    background-color: transparent;
+    height: 1000px;
+    overflow: auto;
+    margin: 0px;
+    text-align: justify;
+    padding: 20px;
+}
+.dash{
+    
+    margin:5px 5px ;
+}
+.Wlc{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 80px;
+    display:flex;
+}
+
+.icode img{
+    width: 100px;
+}
+.Hello{
+    margin-left: -100px;
+    
+}
+.Hello h1 {
+    text-align: left;
+    margin-left: 0px;
+}
+.Hello h3{
+    margin-top: -7px;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.icode{
+    margin-right: -300px;
+   
+}
+.stat-etud{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    box-shadow: -1px 0px 5px 0px #000;
+    margin: 5px;
+    margin-left: 10px;
+    
+}
+.stat-etud1{
+    background-color: white;
+    width: 580px;
+    height: 400px;
+    box-shadow: -1px 0px 5px 0px #000;
+    margin: 5px;
+    margin-left: 60px;
+    
+    
+}
+.stat-etud1 .linechart{
+    margin-top: 50px;
+    margin-left: 60px;
+    
+}
+.stat-etud1 h1 {
+    border: 1px solid black;
+    border-width: 2px;
+    background-color: #053c55;
+    width: 582px;
+    font-size: 28px;
+    margin-left: -2px;
+    text-align: center;
+    color: white;
+}
+.stat{
+    display: flex;
+    margin-left: -30px;
+}
+.stat-etud .barchart{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.piechart{
+    
+    margin-top: -50px;
+    margin-left: 80px;
+    
+}
+
+
+
+.container {
+    position: relative;
+}
+
+.container .slider {
+    display: flex;
+    background: #011b27;
+    padding: 2px;
+    width: 600px;
+    height: 150px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.container .slider img {
+    margin: 3px;
+}
+
+.container .control {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #02293b;
+    cursor: pointer;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.container .prev {
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.stat-etud1 .linechart2{
+    margin-top: 50px;
+    margin-left: 20px;
+    
+   
+}
+h6{
+    font-size: 16px;
+}

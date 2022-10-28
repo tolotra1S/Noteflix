@@ -1,0 +1,95 @@
+.scrollable-div {
+    background-color: transparent;
+    height: 604px;
+    overflow: auto;
+    margin: 0px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+}
+
+th, td, h1, p, li, h2 {
+    padding: 8px;
+    color:rgb(12, 10, 10);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    display: inline;
+}
+
+p {
+    font-size: 20px;
+}
+
+thead, .grid-item  {
+    border: 2px;
+    border-color: rgb(2, 2, 2);
+    color: rgb(17, 11, 11);
+    font-size: 0.875rem;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+
+thead th {
+    width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: transparent;
+  }
+  
+tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+tbody th {
+    text-align: left;
+}
+
+h1, p, .grid-item{
+    margin-left: 15%;
+    float : center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+table{
+    border: 1px solid rgb(10, 8, 8);
+    border-collapse: collapse;
+    float: center;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 1000px;    
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+	vertical-align: middle;
+}
+table thead{
+    font-size: large;
+}
+
+.niveau {
+text-decoration: none;
+margin-left: -90px;
+}
+.niveau .link1{
+    text-decoration: none;
+    margin-bottom: -20px;
+    padding: 5px;
+    
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-left: 40px;
+
+}
+.niveau .link1:hover{
+    background-color: 
+    black;
+    width: 100px;
+    color: white;
+    
+}
